@@ -1,0 +1,2 @@
+- create animal base class
+- create subclasses for different animsl
