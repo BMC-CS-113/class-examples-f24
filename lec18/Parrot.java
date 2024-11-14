@@ -19,6 +19,9 @@ public class Parrot extends Animal {
 
   public String toString() {
     // how can we call the toString() method from Animal
+    //String output = this.name + " weighs: " + this.weight +", isAwake: " + this.is    Awake;
+    String output = super.toString(); 
+    output += " color: " + color;
    return output;
   }
 

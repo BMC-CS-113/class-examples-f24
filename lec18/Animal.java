@@ -1,4 +1,4 @@
-public class Animal {
+public class Animal implements AnimalInterface {
 
   // what do animals have?
   /*
@@ -45,6 +45,10 @@ public class Animal {
     prey.sleep();
     prey.weight = -1.;
     return this.weight;
+  }
+
+  public Animal procreate(Animal mate) {
+    return new Animal("I'm the baby of " + mate.name + " and " + this.name, 1., false, false);
   }
 
   public void move() {
